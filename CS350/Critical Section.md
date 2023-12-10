@@ -1,3 +1,4 @@
+# Critical Section
 > [!tldr] Code that access a shared variable
 > Must not be concurrently executed by more than one thread
 

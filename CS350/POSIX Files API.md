@@ -1,4 +1,5 @@
-### POSIX functions for working with files include
+# POSIX Files API
+## POSIX functions for working with files include
 * `open`
 	* returns a **file descriptor**
 		* used to identify files
@@ -22,12 +23,12 @@
 `stdio` library in C works on top of these functions
 * `fopen`, `fscanf`, …
 
-### Manipulating File Descriptors
-#### dup2
+## Manipulating File Descriptors
+### dup2
 ```c
 int dup2(int oldfd, int newfd);
 ```
-- #### Makes `newfd` an exact copy of `oldfd`
+- ### Makes `newfd` an exact copy of `oldfd`
 * Closes what was originally in `newfd` if it was a valid FD
 * Both will share same offset
 	* `lseek` affects both
@@ -38,19 +39,19 @@ int dup2(int oldfd, int newfd);
 > ```
 > the `infile` is opened and is set to `stdin`
 > * reading from `stdin` now reads from `infile`
-#### fcntl (file control)
+### fcntl (file control)
 ```C
 int fcntl(int fd, F_SETFD, int val);
 ```
-* #### Sets the `close-on-exec` flag
+* ### Sets the `close-on-exec` flag
 	* if `val=1`, `execvp` will **close** the file **FD**
 	* if `val=0`, `execvp` will **leave open** the file **FD**
 	* if `execvp` was unsuccessful, **FD** is left open
-#### Pipes
+### Pipes
 ```C
 int pipe(int fds[2]);
 ```
-* #### Returns two file descriptors in `fds[0]` and `fds[1]`
+* ### Returns two file descriptors in `fds[0]` and `fds[1]`
 * Output of `fds[1]` becomes input of `fds[0]`
 	* `fds[1] | fds[0]`
 

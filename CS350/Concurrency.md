@@ -1,7 +1,11 @@
-#unit
+---
+tags:
+  - unit
+---
+# Concurrency
 > [!tldr] Multiple programs running, or appearing to run at the same time
 
-### Parallelism
+## Parallelism
 * ==run at the same time== because of multiple core processors or multiple processors
 
 > [!example]
@@ -16,11 +20,11 @@
 > 
 
 
-### [[Protection#Pre-emption|Preemptive]] [[Multitasking]]
+## [[Protection#Pre-emption|Preemptive]] [[Multitasking]]
 * ==Appearing to run at the same time==
 	* Rapidly switching between programs
 
-### [[Critical Section]]
+## [[Critical Section]]
 - Data races occur without [[Synchronization]]
 	- Accessing same global variable
 - Race condition
@@ -39,7 +43,7 @@
 > * number of hits on a website
 > * more concerned with speed than accuracy
 
-#### Detecting data races
+### Detecting data races
 * Static methods
 	* detected by compiler
 * Instrumentation
@@ -47,16 +51,16 @@
 * [[Lockset Algorithm]]
 	* effective
 
-### [[Sequential Consistency]]
+## [[Sequential Consistency]]
 * Usually assume sequential consistency
 * If we obey certain rules, it should be indistinguishable from sequential consistency
-### [[x86 Consistency]]
-### [[x86 Atomicity]]
-### [[Mutex]]
+## [[x86 Consistency]]
+## [[x86 Atomicity]]
+## [[Mutex]]
 * Busy waiting is inefficient
 	* Thread consumes processor time even though doing nothing
 	* Slows down other threads and processes
-### [[Condition Variables]]
+## [[Condition Variables]]
 * Inform scheduler which threads can run
-### [[Monitors]]
-### [[Semaphores]]
+## [[Monitors]]
+## [[Semaphores]]

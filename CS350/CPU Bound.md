@@ -1,3 +1,4 @@
+# CPU Bound
 > [!tldr] Time to complete tasks determined by speed of processor
 
 > [!example]

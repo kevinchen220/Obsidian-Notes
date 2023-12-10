@@ -1,3 +1,4 @@
+# Interrupt Descriptor Table
 
 > [!tldr] Defines the address to jump to for a particular interrupt vector
 > ![[Pasted image 20231208163007.png]]

@@ -1,3 +1,4 @@
+# Deadlock
 > [!tldr] Both threads stuck forever
 
 > [!example] 
@@ -23,14 +24,14 @@
 > Dangerous to acquire locks in different orders
 > 
 
-### Conditions
+## Conditions
 1. Limited access (mutual exclusion)
 2. No [[Protection#Pre-emption|pre-emption]] of resources
 3. Multiple independent requests
 4. **Circularity in graph of requests**
 
-### Solution
-#### Prevention (eliminate one condition)
+## Solution
+### Prevention (eliminate one condition)
 1. Limited access
 	* But more resources
 2. No pre-emption

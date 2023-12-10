@@ -1,3 +1,4 @@
+# Fine-grained locking
 
 > [!tldr] Create a [[Mutex|lock]] for each entry of a datastructure
 

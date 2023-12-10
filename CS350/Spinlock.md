@@ -1,3 +1,4 @@
+# Spinlock
 > [!tldr] Repeatedly test the lock’s availability until lock is obtained
 > Efficient for short waiting times
 
@@ -19,7 +20,7 @@
 > [!NOTE] [[Interrupts]] are disabled on the thread that holds a spinlock
 > Thread will only execute a few instructions before releasing spinlock
 
-### Implementation in CasterOS
+## Implementation in CasterOS
 ```c
 void Spinlock_Lock(Spinlock *lock)
 {

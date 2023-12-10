@@ -1,7 +1,8 @@
+# Hardware Specific Synchronization Instructions
 > [!todo] Implement a [[Mutex|mutex]] atomically
 > * No other thread can change its value between **testing** and **setting** the mutex
 
-### Test-and-Set
+## Test-and-Set
 ```C
 while (*mutex == true) {}; //  Test if mutex is held
 *mutex = true; // set it to true
@@ -31,5 +32,5 @@ Testing to setting the [[Mutex|mutex]] should be done in one [[x86 Atomicity|ato
 > ARM has Reduces Instruction Set with **relaxed consistency**
 > * Reads and writes can occur out of order, possible different order in different threads
 
-### C11 has built-in support for atomics
+## C11 has built-in support for atomics
 * [[C11 Atomics]]

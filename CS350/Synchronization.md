@@ -1,22 +1,25 @@
-#unit 
-
-### Motivation
+---
+tags:
+  - unit
+---
+# Synchronization
+## Motivation
 [[Amdahl’s Law]] guides the **efficiency gains when using multiple cores**
 
-### Locking Basics
+## Locking Basics
 * Only one thread can hold a [[Mutex|lock]] at a time
 * **Never touch global data unless you hold the right lock**
 
-### [[Fine-grained locking]] vs. [[Coarse-grained locking]]
+## [[Fine-grained locking]] vs. [[Coarse-grained locking]]
 
-### [[Hardware Specific Synchronization Instructions]]
+## [[Hardware Specific Synchronization Instructions]]
 
-### [[Cache Coherence]]
-### [[MCS Lock]]
-### [[Deadlock]]
-### [[Wait Channel]]
+## [[Cache Coherence]]
+## [[MCS Lock]]
+## [[Deadlock]]
+## [[Wait Channel]]
 
-### Hand-over-Hand Locking
+## Hand-over-Hand Locking
 * Fine-grained locking
 * Useful for concurrent access to a single data structure
 	* Hold at most two locks

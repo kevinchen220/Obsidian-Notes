@@ -1,4 +1,5 @@
-### Go routines
+# Golang
+## Go routines
 
 > [!tldr] Very light-weight [[User Thread|user-level threads]]
 > * 100KiB go routines vs. 2MiB OS thread
@@ -12,7 +13,7 @@
 	* convert to non-blocking by yielding the core
 	* poll using kernel event API `poll`, `epoll`, `kqueue` to check whether an event has happened
 
-### Go channels
+## Go channels
 
 > [!example]
 > ```go

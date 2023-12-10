@@ -1,12 +1,13 @@
-### Creating processes
+# POSIX Processes API
+## Creating processes
 
-#### fork
+### fork
 ```c
 // Returns new Process ID in parent
 // Returns 0 in child
 int fork(void);
 ```
-* #### Create a process that is an exact copy of the current one
+* ### Create a process that is an exact copy of the current one
 * Called once returned twice
 > [!question] Why `fork`?
 > * Most calls to `fork` are followed by `execve`
@@ -18,11 +19,11 @@ int fork(void);
 > * **Simplicity**
 > 	* no arguments needed
 
-#### waitpid
+### waitpid
 ```C
 int waitpid(int pid, int *status, int options);
 ```
-* #### Attempt to get exit status of child
+* ### Attempt to get exit status of child
 * `pid`: process ID of child
 * `status`: will contain exit value or signal if crashed
 * `options`: 
@@ -30,20 +31,20 @@ int waitpid(int pid, int *status, int options);
 	* WNOHANG -> do not wait for terminate
 * Returns process ID or -1 on error
 
-### Deleting Processes
-#### exit
+## Deleting Processes
+### exit
 ```c
 void exit(int status);
 ```
-* #### have the current process exit
+* ### have the current process exit
 * `status`: shows up in encoded format if [[#Creating processes#waitpid|waitpid]] is called
 * status of 0 is success, non-zero is error
 
-#### Kill
+### Kill
 ```c
 int kill(int pid, int sig);
 ```
-* #### Sends signal `sig` to `pid`
+* ### Sends signal `sig` to `pid`
 
 > [!faq] A signal is a software [[Interrupts|interrupt]]
 > * **SIGTERM** is most common
@@ -52,12 +53,12 @@ int kill(int pid, int sig);
 > * **SIGKILL** is stronger
 > 	* kill process always
 
-### Running Programs
-#### execve
+## Running Programs
+### execve
 ```c
 int execve (char *prog, char **argv, char **envp)
 ```
-* #### Replaces the current running program with a new one `prog`
+* ### Replaces the current running program with a new one `prog`
 * `prog`: full pathname of the program to run
 * `argv`: argument vector that is passed to `main` of `prog`
 * `envp`: environment variables

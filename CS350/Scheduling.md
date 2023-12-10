@@ -1,3 +1,4 @@
+# Scheduling
 > [!tldr] Decide which process to run
 
 > [!quesiton] Which process should the kernel run?

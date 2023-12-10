@@ -1,4 +1,5 @@
-### Idea
+# Base + Bound Register
+## Idea
 * Two special privileged registers **base** and **bound**
 * On each load or store:
 	1. Calculate the physical address = virtual address + **base**
@@ -10,12 +11,12 @@
 > [!question] What happens on context switch?
 > OS must re-load **base** and **bound** register
 
-### Advantages
+## Advantages
 * Inexpensive in terms of hard ware
 	* Two registers
 * Inexpensive in terms of cycles
 	* Add and compare in parallel
-### Disadvantages
+## Disadvantages
 * Growing a process is expensive
 * No way to share code or data
 * 

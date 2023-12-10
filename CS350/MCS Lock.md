@@ -1,8 +1,9 @@
+# MCS Lock
 > [!tldr] Improved [[Spinlock]]
 > * Less traffic
 > * More fair
 
-### Structure
+## Structure
 ```C
 typedef struct qnode {
 	struct qnode *next;
@@ -13,7 +14,7 @@ Each processor has a `qnode` structure in local memory
 * `next` can point to another `qnode` not in local memory
 **While waiting, spin on local `locked` flag**
 
-### The lock
+## The lock
 ```C
 typedef qnode *lock;
 ```
@@ -21,8 +22,8 @@ Point to a list of processors holding or waiting to hold the MSC lock
 * When `lock` is null, then it is available
 * When a thread tries to acquire a lock, it will ad itself to the list
 
-### Implementation
-#### MCS Acquire
+## Implementation
+### MCS Acquire
 ```C
 1 acquire(lock *L, qnode *I) {
 2   I->next = NULL;
@@ -36,7 +37,7 @@ Point to a list of processors holding or waiting to hold the MSC lock
 10   }
 11 }
 ```
-#### MCS Release
+### MCS Release
 ```c
 1. release(lock *L, qnode *I) {
 2.   if (!I->next)

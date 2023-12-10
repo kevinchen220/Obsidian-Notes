@@ -1,5 +1,8 @@
-#unit 
-
+---
+tags:
+  - unit
+---
+# Virtual Memory
 > [!tldr] Manage memory to allow multiple processes to share it
 
 > [!Warning] Issues in sharing physical memory
@@ -12,36 +15,36 @@
 > * Programmes typically assume machines has enough memory
 > * Sum of sizes of all processes often greater than physical memory
 
-### Goal
+## Goal
 **Give each program its own virtual [[Address Space]]**
 * At run-time, the [[Memory Management Unit]] relocates each load and store address to the actual physical address
-### Advantages
+## Advantages
 * Relocate program while running
 	* Store partially in memory and partially in SSD
 * Most of process’s memory may be idle ([[80⧸20 Rule]])
 	* Write idle parts to disk until needed
 
-### Definitions
-#### Virtual address
+## Definitions
+### Virtual address
 * Where programs load and store to
-#### Physical address
+### Physical address
 * Where actual memory is
-### Idea 1: [[Load-time Linking]]
-### Idea 2: [[Base + Bound Register]]
-### Idea 3: [[Segmentation]]
-### Idea 4: [[Paging]]
+## Idea 1: [[Load-time Linking]]
+## Idea 2: [[Base + Bound Register]]
+## Idea 3: [[Segmentation]]
+## Idea 4: [[Paging]]
 
-### Where does the OS live?
+## Where does the OS live?
 **Kernel addresses are in the same address space as the user process**
 * Use protection bits to prohibit user code from reading and writing kernel adresses
 Typically all kernel text and most data are at **same virtual address in every address space**, upper half of memory
 
-### Breakpoint
+## Breakpoint
 **Top of heap**
 * Memory between breakpoint and stack is invalid
 ![[Pasted image 20231209182234.png]]
 
-### VM [[System Calls]]
+## VM [[System Calls]]
 ```c
 char *brk(const char *addr);
 ```
@@ -50,9 +53,9 @@ char *brk(const char *addr);
 char *sbrk(int incr);
 ```
 * Increment breakpoint and return old value
-#### [[Memory mapped files]]
+### [[Memory mapped files]]
 
-### Exposing page faults
+## Exposing page faults
 `sigaction` is used to specify what action to take for **SIGSEGV** (invalid memory access)
 ```c
 struct sigaction { /* the Linux struct for signal actions */
@@ -66,7 +69,7 @@ struct sigaction { /* the Linux struct for signal actions */
 int sigaction (int sig, const struct sigaction *act, struct sigaction *oact)
 ```
 
-### VM Tricks
+## VM Tricks
 * Combination of `mprotect` and `sigaction`
 	* Achieve kernel-like actions
 * Technique used in object-oriented databases
@@ -74,5 +77,5 @@ int sigaction (int sig, const struct sigaction *act, struct sigaction *oact)
 	* Keep track of objects that are dirty
 	* Manage memory as a cache for large DB objects
 
-### [[Pmap Layer]]
+## [[Pmap Layer]]
 

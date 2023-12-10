@@ -1,24 +1,25 @@
+# Semaphores
 > [!tldr] Lock with multiple states
 
-### init
+## init
 ```c
 int sem_init(sem_t *s, ..., unsigned int n);
 ```
 * Initialize a semaphore with `n`
-### wait
+## wait
 ```c
 sem_wait(sem_t *s);
 ```
 * **If semaphore value `n` is greater than 0, decrement it**
 * Otherwise, wait until `n > 0`, then decrement it
-### signal
+## signal
 ```c
 sem_signal(sem_t *s);
 ```
 * Increment `n` by 1
 
-### Implementation
-#### wait
+## Implementation
+### wait
 ```c
 Semaphore_Wait(Semaphore *sem) {
   Spinlock_Lock(&sem->sem_lock);
@@ -36,7 +37,7 @@ Semaphore_Wait(Semaphore *sem) {
   Spinlock_Unlock(&sem->sem_lock);
 }
 ```
-#### signal
+### signal
 ```c
 Semaphore_Post(Semaphore *sem) {
   Spinlock_Lock(&sem->sem_lock);

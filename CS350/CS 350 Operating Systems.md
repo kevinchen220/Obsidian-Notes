@@ -1,4 +1,8 @@
-#course
+---
+tags:
+  - course
+---
+# CS 350 Operating Systems
 1. [[Introduction to Operating Systems]]
 2. [[Processes]]
 3. [[Threads]]
@@ -8,6 +12,6 @@
 7. [[File Systems]]
 8. 
 
-### Case Studies
+## Case Studies
 1. [[Golang]]
 2. 

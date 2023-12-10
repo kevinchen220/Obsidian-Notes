@@ -1,33 +1,34 @@
-### Coherence
+# Cache Coherence
+## Coherence
 * Accesses to a single memory location in different caches should be the same
-### Consistency
+## Consistency
 * Apparent ordering between multiple locations
 
-### [[Multicore Caches]]
+## [[Multicore Caches]]
 
-### 3-State Coherence Protocol
-#### Modified
+## 3-State Coherence Protocol
+### Modified
 * One cache has a valid copy
 	* **Dirty**, needs write back
 * Out of date copies in other caches are **stale**
 * Invalidate all other copies before entering this state
-#### Shared
+### Shared
 * One or more cache have valid copy
-#### Invalid
+### Invalid
 * Doesn’t contain up to date data
 
 > [!NOTE] Transitions take 100 cc on smaller machines and up to 2000 cc on larger ones
 
-### Core and Bus Actions
+## Core and Bus Actions
 Each core has three possible actions that affect the cache
-#### Read (load)
+### Read (load)
 * No intent to modify
 * Enter **shared** state
-#### Write (store)
+### Write (store)
 * Intent to modify
 	* Invalidate all other cache copies
 * **Modified** state
-#### Evict
+### Evict
 * Writeback to memory if modified
 	* Only if in **modified** state
 
@@ -35,7 +36,7 @@ Each core has three possible actions that affect the cache
 > * Every transition requires bus communications
 > * Avoid state transitions where possible
 
-#### Implications for Multithreaded Design
+### Implications for Multithreaded Design
 1. **Avoid false sharing**
 	* Avoid placing data used by different threads in the same cache line
 2. **Align structures to cache lines**
@@ -45,7 +46,7 @@ Each core has three possible actions that affect the cache
 4. **Avoid contending on cache lines**
 	* Reduce costly cache coherence traffic
 
-### Real World Coherence Costs
+## Real World Coherence Costs
 > [!Example]
 > Assume access time for an Intel Xeon processor caches and RAM:
 > * 3 cycles for L1 caches
@@ -58,7 +59,7 @@ Each core has three possible actions that affect the cache
 > * Store: 115 CC
 > * Atomic compare-and-swap: 120 CC
 
-#### Non-uniform memory access (NUMA)
+### Non-uniform memory access (NUMA)
 Multiple processors, each processor has local memory
 * Able to access local memory fast
 For cores accessing data on different processors:

@@ -1,3 +1,4 @@
+# Lockset Algorithm
 
 > [!tldr] Algorithm to detect [[Concurrency#Critical Section|data races]] 
 

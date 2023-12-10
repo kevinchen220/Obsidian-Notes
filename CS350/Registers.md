@@ -1,18 +1,19 @@
+# Registers
 
 > [!NOTE] We use x64 not MIPS
 
-### Register names
+## Register names
 * start with `%`
 * many are named after what they do
 	* e.g. `%rsp`
-### Passing arguments
+## Passing arguments
 * pass the first 6 args in registers
 * pass the rest on the stack
-### Saving registers
-#### Caller-save
+## Saving registers
+### Caller-save
 * **Not preserved across subroutine calls**
 * Caller must restore value from stack
-#### Callee-save
+### Callee-save
 * **Preserved across subroutine calls**
 * subroutine restores it at the end
 

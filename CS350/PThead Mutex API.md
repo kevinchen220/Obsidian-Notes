@@ -1,3 +1,4 @@
+# PThead Mutex API
 ```c
 // Init
 int pthread_mutex_init(pthread_mutex_t *m, pthread_mutexattr_t attr);

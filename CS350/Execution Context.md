@@ -1,3 +1,4 @@
+# Execution Context
 
 > [!tldr] Environment where functions execute
 > Includes

@@ -1,5 +1,6 @@
+# Context Switch
 > [!tldr] Changing the running process
-### A context switch is non-negligible cost
+## A context switch is non-negligible cost
 * Saving floating point
 * Flushing TLB
 * More cache misses

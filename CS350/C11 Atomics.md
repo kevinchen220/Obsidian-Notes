@@ -1,15 +1,16 @@
+# C11 Atomics
 > [!tldr] C11 built-in support for atomics
 
-### `_Atomic(...)` wrapper
+## `_Atomic(...)` wrapper
 * Can wrap most basic types and they become atomic
 * Operations become [[Sequential Consistency|sequentially consistent]]
-### `atomic_flag`
+## `atomic_flag`
 * Atomic boolean value without support for loads or stores
 * Can do `atomic_flag_test_and_set` and `atomic_flag_clear`
 * Must be lock-free
 	* Cannot be [[Protection#pre-emption|pre-emption]] in the middle of instruction
 
-### Memory Ordering
+## Memory Ordering
 1. **memory_order_relaxed**: no specific memory ordering required
 2. **memory_order_consume**: slightly relaxed version of acquire
 3. **memory_order_acquire**: reads and writes that happen after a lock cannot be moved before it

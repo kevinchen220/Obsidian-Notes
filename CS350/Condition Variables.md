@@ -1,3 +1,4 @@
+# Condition Variables
 > [!tldr] Allow threads to wait for arbitrary conditions to become true
 > Each CV corresponds to a particular condition that is of interest to an application
 
@@ -26,7 +27,7 @@ When another thread detects that **condition is true**, use `cond_signal` or `co
 > * Another thread acquires the same lock and signals
 
 
-### [[PThread CV API]]
+## [[PThread CV API]]
 * Use [[Mutex]] to implement
 	* Each `cond_wait` takes a mutex
 		* To lock and check condition when awake

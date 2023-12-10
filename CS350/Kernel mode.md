@@ -1,6 +1,7 @@
+# Kernel mode
 
 > [!tldr] Privileged mode used by the OS
-### Access privileged processor features
+## Access privileged processor features
 * restricted processor features and registers
 * Enable and disable [[Interrupts]], set up interrupt handlers
 * Controls the [[System Call Interface]]

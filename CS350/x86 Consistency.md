@@ -1,3 +1,4 @@
+# x86 Consistency
 
 > [!NOTE] x86 supports multiple consistency/caching models
 > Memory Type Range Registers (MTRR) 
@@ -6,7 +7,7 @@
 > Page Attribute Table (PAT)
 > * Allows control for each 4k page
 
-#### Caching choices:
+### Caching choices:
 * **WB**: Write-back caching
 	* Write to cache and mark dirty bit
 	* Write back to main memory when item is going to be removed from cache
@@ -22,7 +23,7 @@
 	* Used for frame buffers
 		* Sending a lot of data to GPU
 
-#### Weak-consistency
+### Weak-consistency
 * No guarantee that reads and writes will have [[Sequential Consistency]]
 * ==Some instructions can be reordered==
 	* String instructions

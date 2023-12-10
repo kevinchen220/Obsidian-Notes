@@ -1,18 +1,19 @@
-### FIFO Eviction
+# Eviction Policies
+## FIFO Eviction
 * **Evict oldest fetched page**
-#### [[Belady’s Anomaly]]
+### [[Belady’s Anomaly]]
 
-### Optimal Page Replacement
+## Optimal Page Replacement
 * **Replace page that will not be used for longest period of time in the future**
 	* Of course we don’t know the future
 
-### LRU Page Replacement
+## LRU Page Replacement
 * **Replace least recently used**
 	* Past behaviour often predicts future behaviour
 
 > [!warning] LRU can give the worst possible result
 
-#### Implementations
+### Implementations
 1. Stamp entries with timer value
 	* Scan pages to find oldest value
 	* **Expensive**
@@ -20,7 +21,7 @@
 	* **Also expensive**
 ==Use Approximate LRU==
 
-### Clock Algorithm
+## Clock Algorithm
 ![[Pasted image 20231209173541.png]]
 Use accessed bit to keep track of entries
 * Write 1 to **A** in the PTE on first access
@@ -35,4 +36,4 @@ Use accessed bit to keep track of entries
 Can also use dirty bit
 * Evict clean pages before dirty ones
 
-### Random eviction
+## Random eviction

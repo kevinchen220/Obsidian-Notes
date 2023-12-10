@@ -1,18 +1,19 @@
+# Process states
 ![[Pasted image 20231207130736.png]]
-### New
+## New
 * When process was just created
-### Ready / Runnable
+## Ready / Runnable
 * **New** process is admitted
 * Can run
 	* [[OS Kernel|Kernel]] has chosen other [[Processes|process]] to run
-### Running
+## Running
 * Currently executing
-### Waiting
+## Waiting
 * Waiting for an event to occur
 	* Disk operation
 	* I/O
-### Terminated
+## Terminated
 * Exited or made fatal error
-### [[Scheduling]]
+## [[Scheduling]]
 - Which ready process gets to run
 

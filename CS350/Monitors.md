@@ -1,3 +1,4 @@
+# Monitors
 > [!tldr] Class where only one procedure runs at a time
 
 Possibly less error prone than [[Mutex]], but also less flexible
