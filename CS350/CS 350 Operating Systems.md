@@ -10,8 +10,12 @@ tags:
 5. [[Synchronization]]
 6. [[Virtual Memory]]
 7. [[File Systems]]
-8. 
+8. [[Scheduling]]
+9. [[I⧸O and Devices]]
 
 ## Case Studies
 1. [[Golang]]
-2. 
+2. [[Speeding up FS]]
+3. [[XFS]]
+
+![[Pasted image 20231210143636.png]]

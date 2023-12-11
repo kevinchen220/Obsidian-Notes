@@ -43,3 +43,48 @@ tags:
 ### Attempt 1: [[Contiguous Allocation]]
 ### Attempt 2: [[Linked Files]]
 ### Attempt 3: [[FAT]]
+### Attempt 4: [[Indexed Files]]
+### Attempt 5: [[Multi-level Indexed Files]]
+
+## [[Directories]]
+
+## Naming Magic
+
+> [!question] Where do you start looking for a file
+> * Root directory always **inode #2**
+> 	* Inodes 1 and 2 are reserved for bad blocks
+#### Special names
+* Root directory: “/”
+* Current directory: “.”
+* Parent directory: “..”
+* User’s home directory: “~“
+* Globbing: “$*$”
+#### Current working directory (cwd)
+* Locality
+	* `./a.out` will refer to different files in different contexts
+* Shells track a **default list of active contexts**
+	* The list is referred to as a ==search path== for programs you can run
+
+## [[Hard Links]] & [[Soft Links]]
+* More than one directory entry can refer to a given file
+
+## [[Speeding up FS]]
+
+
+## [[Fragment Allocation]]
+
+## [[Block Allocation]]
+
+## Cluster writes
+* FS delays writing a block back to get more blocks
+* **Accumulates blocks into 64K clusters, written all at once**
+Allocation of clusters similar to fragments and blocks
+* System maintains a cluster bitmap
+	* One bit for each 64K if entire cluster is free
+
+## [[Crash Recovery]]
+## [[XFS]]
+## [[Contiguous Allocation]]
+* Want each file contiguous on disk
+	* Sequential file I/O should be as fast as sequential disk I/O
+
