@@ -18,4 +18,4 @@ tags:
 2. [[Speeding up FS]]
 3. [[XFS]]
 
-![[Pasted image 20231210143636.png]]
+![[Pasted image 20231211100342.png]]
