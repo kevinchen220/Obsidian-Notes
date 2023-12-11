@@ -4,6 +4,7 @@
 > * Can share/protect memory at segment granularity
 > * Segments provide different protection
 > 	* Read-only, executable, etc
+> 
 > See also [[Base + Bound Register]]
 ## Mechanics
 ![[Pasted image 20231209135523.png]]

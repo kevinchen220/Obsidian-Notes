@@ -21,6 +21,7 @@ Block aging
 ### Solution
 Write blocks in any order
 * Keep track of dependencies
+
 When writing a block
 * **Temporarily roll back any changes that cannot be committed yet**
 	* Cannot write block with any arrows pointing to dependees
