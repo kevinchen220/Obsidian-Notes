@@ -1,7 +1,7 @@
 # Round Robin Scheduling
 
 > [!tldr] Addresses fairness and starvation
-> Pre-empt job after some time slice or scheduling quantum
+> Pre-empt job after some time slice or scheduling [[time quantum]]
 > * When pre-empted, move to back of FIFO queue
 
 ### Advantages
