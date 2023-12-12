@@ -1,6 +1,7 @@
 ---
 tags:
   - unit
+  - cs350
 ---
 # I⧸O and Devices
 ![[Pasted image 20231210224228.png]]

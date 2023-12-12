@@ -1,6 +1,7 @@
 ---
 tags:
   - unit
+  - cs350
 ---
 # Scheduling
 > [!tldr] Decide which process to run

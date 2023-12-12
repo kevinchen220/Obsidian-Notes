@@ -1,6 +1,7 @@
 ---
 tags:
   - course
+  - cs350
 ---
 # CS 350 Operating Systems
 ## Units

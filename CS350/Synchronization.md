@@ -1,6 +1,7 @@
 ---
 tags:
   - unit
+  - cs350
 ---
 # Synchronization
 ## Motivation
