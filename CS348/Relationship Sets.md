@@ -1,7 +1,7 @@
 # Relationship Sets
 #### If general cardinality constraint (1, 1) for a component entity set E
 → Add following columns to table E:
-1. attributes of the relationship set
+1. [[attributes]] of the relationship set
 2. primary key attributes of remaining component [[entity sets]]
 #### Otherwise make a new table $R$ for relationship $R$
 1. attributes of the relationship set
