@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Entity Sets
 Entity set E with [[attributes]] $a_1, … , a_n$ maps to a table E with attributes $a_1, …, a_n$
 * Entity of type E $\iff$ Row in table E

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Sequential Consistency
 
 > [!tldr] Result of the execution is as if all operations were executed in some order

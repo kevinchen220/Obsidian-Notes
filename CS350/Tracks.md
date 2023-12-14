@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Tracks
 
 > [!tldr] Concentric circles on the [[magnetic platters]]

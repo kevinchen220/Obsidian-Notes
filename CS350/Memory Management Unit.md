@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Memory Management Unit
 ![[Pasted image 20231209130929.png]]
 * Maps virtual address to physical address

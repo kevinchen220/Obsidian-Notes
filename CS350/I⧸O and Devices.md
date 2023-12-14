@@ -2,6 +2,7 @@
 tags:
   - unit
   - cs350
+dg-publish: true
 ---
 # I⧸O and Devices
 ![[Pasted image 20231210224228.png]]

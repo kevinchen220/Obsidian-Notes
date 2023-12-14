@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Scheduling Criteria
 
 > [!tldr] Why do we care?

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Exceptions
 > [!tldr] Conditions discovered by the processor while executing an instruction
 

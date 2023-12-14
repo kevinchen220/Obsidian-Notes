@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Process Priority
 ## `p_nice`
 User-settable weighting factor (-20, 20)

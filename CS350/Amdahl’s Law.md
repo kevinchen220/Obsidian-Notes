@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Amdahl’s Law
 > [!tldr] Efficiency gains when using multiple cores
 > $$T(n) = T(1)(B+\frac{1}{n}(1-B))$$

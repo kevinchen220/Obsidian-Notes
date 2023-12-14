@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Registers
 
 > [!NOTE] We use x64 not MIPS

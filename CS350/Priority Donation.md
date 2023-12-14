@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Priority Donation
 ## Direct Priority Change
 ##### Thread priority changed to thread which immediately depends on it

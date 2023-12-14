@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Function in x86
 Functions are called with the `call` instruction
 `call` pushes the return address on to the stack and jumps to the target

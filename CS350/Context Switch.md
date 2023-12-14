@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Context Switch
 > [!tldr] Changing the running process
 ## A context switch is non-negligible cost

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Memory
 ## SRAM
 Static RAM

@@ -2,6 +2,7 @@
 tags:
   - unit
   - cs350
+dg-publish: true
 ---
 # Scheduling
 > [!tldr] Decide which process to run

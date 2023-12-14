@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Interrupt Descriptor Table
 
 > [!tldr] Defines the address to jump to for a particular interrupt vector

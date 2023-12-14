@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # x86 Atomicity
 ## `lock` (prefix)
 * Makes the memory instruction atomic

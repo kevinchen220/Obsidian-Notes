@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Deadlock
 > [!tldr] Both threads stuck forever
 

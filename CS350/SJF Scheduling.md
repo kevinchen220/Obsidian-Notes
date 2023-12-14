@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # SJF Scheduling
 
 > [!tldr] Schedule the job whose next CPU burst is the shortest

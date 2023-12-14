@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Implementation of Thread
 
 > [!goal] Share what you can. Keep separate versions only if necessary

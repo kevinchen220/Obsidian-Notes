@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Memory mapped files
 
 > [!tldr] Memory objects can exist between heap and stack using `mmap` [[System Calls|system call]]

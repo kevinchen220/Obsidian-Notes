@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # POSIX Files API
 ## POSIX functions for working with files include
 * `open`

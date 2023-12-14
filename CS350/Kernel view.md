@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Kernel view
 
 > [!question] How does the [[OS Kernel|kernel]] see the process?

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Speed
 ## Higher Throughput
 * [[Multitasking]] can **Increase processor utilization** by running one process when another is waiting/idle

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Soft Links
 
 > [!tldr] AKA symbolic links, points to a file or directory name

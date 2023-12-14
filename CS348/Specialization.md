@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Specialization
 
 > [!tldr] Treat entity set which is a specialization of one or more other [[entity sets]] as a [[weak entity sets|weak entity set]]

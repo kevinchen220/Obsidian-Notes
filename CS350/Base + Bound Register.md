@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Base + Bound Register
 ## Idea
 * Two special privileged registers **base** and **bound**

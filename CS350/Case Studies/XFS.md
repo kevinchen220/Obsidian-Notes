@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # XFS
 
 > [!tldr] Think big

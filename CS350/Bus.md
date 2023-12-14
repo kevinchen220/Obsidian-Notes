@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Bus
 
 > [!tldr] Communication pathway between components

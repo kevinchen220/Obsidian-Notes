@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Soft Updates
 ## Goal
 **Want to avoid crashing after “bad” subset of writes**

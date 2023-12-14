@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # MCS Lock
 > [!tldr] Improved [[Spinlock]]
 > * Less traffic

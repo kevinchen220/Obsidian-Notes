@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Hardware Interrupt Handling Process
 1. Finds the [[Interrupt Descriptor Table]] through IDT Register
 2. Reads the IDT descriptor entry for that particular interrupt vector

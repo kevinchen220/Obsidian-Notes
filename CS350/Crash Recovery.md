@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Crash Recovery
 ## Fixing Corruption
 **Must run FS check `fsck` utility after a crash**

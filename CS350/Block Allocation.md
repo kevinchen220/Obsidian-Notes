@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Block Allocation
 ## Goal
 Optimize for sequential access

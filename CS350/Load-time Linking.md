@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Load-time Linking
 > [!tldr] Linked adjusts addresses of symbols
 > ![[Pasted image 20231209131348.png]]

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Contiguous Allocation
 
 > [!tldr] Allocate files like segmented memory

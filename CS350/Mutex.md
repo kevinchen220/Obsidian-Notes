@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Mutex
 > [!tldr] If mutexes used correctly, should be indistinguishable from [[Sequential Consistency]]
 

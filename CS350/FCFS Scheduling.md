@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # FCFS Scheduling
 
 > [!tldr] Run [[processes]] in order that they arrive

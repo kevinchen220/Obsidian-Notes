@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Functional Dependencies
 Let $R$ be a $k$-ary relation $R/(A_1, … , A_k)$ where $l(i) = A_i, 1 \leq i \leq k$ and let $X, Y$ be subsets of $\{A_1, … , A_k\}$
 A **functional dependency** over the [[attributes]] of $R$ is $X \rightarrow Y$, $Y$ depends on $X$

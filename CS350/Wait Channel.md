@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Wait Channel
 > [!tldr] Manages a list of sleeping threads
 > Used by [[Mutex]], [[Semaphores]], [[Condition Variables]]

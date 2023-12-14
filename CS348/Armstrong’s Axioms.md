@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Armstrong’s Axioms
 
 > [!tldr] Infer [[functional dependencies]] from other functional dependencies

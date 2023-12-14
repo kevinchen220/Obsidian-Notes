@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Hardware Specific Synchronization Instructions
 > [!todo] Implement a [[Mutex|mutex]] atomically
 > * No other thread can change its value between **testing** and **setting** the mutex

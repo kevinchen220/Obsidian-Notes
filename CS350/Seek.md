@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Seek
 ### A seek consists of four phases
 1. Speedup - Accelerate arm to max speed or halfway point

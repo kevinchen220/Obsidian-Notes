@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Thrashing
 
 > [!tldr] When an application constantly swapping pages in and out

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # NAND flash
 ## Overview
 Flash Device has 2112-byte pages

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Views
 
 > [!tip] Sometimes [[entity sets]] can be mapped to views instead of tables

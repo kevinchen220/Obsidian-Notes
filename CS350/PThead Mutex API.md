@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # PThead Mutex API
 ```c
 // Init

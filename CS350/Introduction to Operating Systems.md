@@ -2,6 +2,7 @@
 tags:
   - unit
   - cs350
+dg-publish: true
 ---
 # Introduction to Operating Systems
 ### **Operating system is the layer between the application and hardware**

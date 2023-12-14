@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Triple Store
 ```sql
 create view TRIPLE as ( <query> )

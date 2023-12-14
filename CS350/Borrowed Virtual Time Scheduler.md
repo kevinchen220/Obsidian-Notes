@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Borrowed Virtual Time Scheduler
 ### Idea
 Equalize virtual CPU time consumed by different processes

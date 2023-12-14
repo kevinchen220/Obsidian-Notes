@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Relational Schema Good Design
 
 > [!note] Relational Schema Diagnosis

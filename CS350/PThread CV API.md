@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # PThread CV API
 ```C
 // Init with specific attributes

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # x86 Consistency
 
 > [!NOTE] x86 supports multiple consistency/caching models

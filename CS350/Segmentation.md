@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Segmentation
 > [!tldr] Let process have many base and bound registers
 > * [[Address Space]] built from many segments

@@ -2,6 +2,7 @@
 tags:
   - cs348
   - unit
+dg-publish: true
 ---
 # Logical Mapping
 

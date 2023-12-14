@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Allocation Groups
 > [!tldr] 0.5-4 GB regions of disk
 

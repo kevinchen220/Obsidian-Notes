@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Application Binary Interface
 
 > [!tldr] Defines the contract between application’s functions and system calls

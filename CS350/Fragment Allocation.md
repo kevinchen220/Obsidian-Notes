@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Fragment Allocation
 ## When is a new fragment created?
 **When system must allocate space when user writes beyond end of file**

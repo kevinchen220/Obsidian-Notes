@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # POSIX Interface
 > [!tldr] Portable Operating System Interface
 

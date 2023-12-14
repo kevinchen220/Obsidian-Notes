@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Round Robin Scheduling
 
 > [!tldr] Addresses fairness and starvation

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Thread Dependencies
 
 > [!example] 

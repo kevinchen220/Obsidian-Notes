@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Speeding up FS
 ### Original file system design
 ![[Pasted image 20231210153921.png]]

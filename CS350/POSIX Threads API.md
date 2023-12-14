@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # POSIX Threads API
 ## pthread_create
 ```c

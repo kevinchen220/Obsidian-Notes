@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Execution Context
 
 > [!tldr] Environment where functions execute

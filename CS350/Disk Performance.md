@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Disk Performance
 #### Placement and ordering of requests is a huge issue
 * Sequential I/O much faster

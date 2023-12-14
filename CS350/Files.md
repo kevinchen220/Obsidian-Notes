@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Files
 
 > [!tldr] Named bytes on disk

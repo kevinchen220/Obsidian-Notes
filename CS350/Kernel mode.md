@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Kernel mode
 
 > [!tldr] Privileged mode used by the OS

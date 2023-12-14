@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Weak [[Entity Sets]]
 Weak entity set E maps to a table E
 

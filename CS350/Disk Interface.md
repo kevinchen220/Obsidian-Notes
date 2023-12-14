@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Disk Interface
 * Disk controller controls the hardware and mediate access
 * Processor and disk are often connected by [[bus]]

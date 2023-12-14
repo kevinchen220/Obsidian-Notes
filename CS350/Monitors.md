@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Monitors
 > [!tldr] Class where only one procedure runs at a time
 

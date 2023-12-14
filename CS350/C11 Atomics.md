@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # C11 Atomics
 > [!tldr] C11 built-in support for atomics
 

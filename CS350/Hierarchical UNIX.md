@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Hierarchical UNIX
 
 > [!tldr] [[Directories]] stored just like regular files

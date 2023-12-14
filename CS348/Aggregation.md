@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Aggregation
 
 > [!tldr] Map relationship set R that is aggregated to new table R

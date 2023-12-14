@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Generalization
 
 > [!tip] Treat generalization of $n$ [[entity sets]] as $n$ [[specialization|specializations]]

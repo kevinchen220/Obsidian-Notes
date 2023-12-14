@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Multicore Caches
 
 > [!tldr] Performance requires multilevel caches since access to RAM is slow

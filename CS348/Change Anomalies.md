@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Change Anomalies
 
 > [!tldr] Inconsistencies that result from an operation like update, insertion, or deletion

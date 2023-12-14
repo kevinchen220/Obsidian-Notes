@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Multi-level Indexed [[Files]]
 ![[Pasted image 20231210144903.png]]
 **14 block pointers + other stuff**

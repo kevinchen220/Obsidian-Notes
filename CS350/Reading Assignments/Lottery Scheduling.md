@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Lottery [[Scheduling]]
 
 > [!tldr] A randomized resource allocation mechanism

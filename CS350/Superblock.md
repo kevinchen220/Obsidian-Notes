@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Superblock
 
 > [!tldr] Specifies information about the file system

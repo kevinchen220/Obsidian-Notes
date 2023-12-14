@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Disk
 * Stack of [[Magnetic Platters]]
 	* Rotate together on a central spindle @3600-15000 RPM

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Fast [[File Systems]]
 ## Goals
 * Enhancing performance

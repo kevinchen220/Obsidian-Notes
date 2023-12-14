@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Time Quantum
 
 > [!question] How to pick quantum?

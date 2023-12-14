@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Fragmentation
 
 > [!tldr] Inability to use free memory because it is in too many small pieces

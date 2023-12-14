@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Pmap Layer
 
 > [!tldr] Holds architecture-specific VM code

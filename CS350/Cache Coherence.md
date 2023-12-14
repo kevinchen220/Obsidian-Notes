@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Cache Coherence
 ## Coherence
 * Accesses to a single memory location in different caches should be the same

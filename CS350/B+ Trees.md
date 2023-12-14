@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # B+ Trees
 Similar to [[B Trees]] in the following ways
 * Both are indexed data structures that store ordered (key, value) pairs

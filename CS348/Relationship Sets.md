@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Relationship Sets
 #### If general cardinality constraint (1, 1) for a component entity set E
 → Add following columns to table E:

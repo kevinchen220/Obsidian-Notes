@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Diagnosis and Repair
 ### Appeal to the integrity constraints of a relational database schema
 * Integrity constraints can imply regularities in database instances that lead to [[change anomalies]]

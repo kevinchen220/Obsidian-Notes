@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Magnetic Platters
 
 > [!tip] Platters are organized as concentric circles called [[Tracks]]

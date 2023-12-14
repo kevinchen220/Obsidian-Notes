@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Priority Scheduling
 
 > [!tldr] Associate a numeric property with each process

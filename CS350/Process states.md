@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Process states
 ![[Pasted image 20231207130736.png]]
 ## New

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Spinlock
 > [!tldr] Repeatedly test the lock’s availability until lock is obtained
 > Efficient for short waiting times

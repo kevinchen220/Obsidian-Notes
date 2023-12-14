@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Performance of File Systems
 ### FS is dominated by number of FS accesses
 * A lotttt slower than most computer operations

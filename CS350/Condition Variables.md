@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Condition Variables
 > [!tldr] Allow threads to wait for arbitrary conditions to become true
 > Each CV corresponds to a particular condition that is of interest to an application

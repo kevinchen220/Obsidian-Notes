@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Paging
 > [!tldr] Divide both virtual and physical memory up into small fixed-size pieces
 

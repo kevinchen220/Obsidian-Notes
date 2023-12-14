@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # System Call Interface
 ![[Pasted image 20231208114739.png]]
 [[OS Kernel |Kernel]] supplies well-defined system call interface

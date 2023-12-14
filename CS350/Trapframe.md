@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Trapframe
 
 > [!tldr] Saves user context during thread switch

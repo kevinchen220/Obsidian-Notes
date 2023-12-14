@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Secondary storage
 > [!tldr] State info that does not disappear
 > **This is where all important state resides**

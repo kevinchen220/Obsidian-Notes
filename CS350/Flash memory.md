@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Flash memory
 ### Completely solid state
 No moving parts

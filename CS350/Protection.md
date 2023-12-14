@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Protection
 > [!tldr] Isolate buggy programs, bad people, and user errors
 

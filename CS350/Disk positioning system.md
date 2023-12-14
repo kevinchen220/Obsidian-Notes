@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Disk positioning system
 
 > [!tldr] Disk positioning system moves the read/write heads to specific [[cylinder]] and keeps it there

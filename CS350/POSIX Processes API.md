@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # POSIX Processes API
 ## Creating processes
 

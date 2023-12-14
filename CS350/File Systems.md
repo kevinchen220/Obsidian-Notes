@@ -2,6 +2,7 @@
 tags:
   - unit
   - cs350
+dg-publish: true
 ---
 # File Systems
 > [!NOTE] Main Goal of file systems

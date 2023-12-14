@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Device Drivers
 
 > [!tldr] Device driver provides several commands to the kernel

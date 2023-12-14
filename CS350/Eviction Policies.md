@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Eviction Policies
 ## FIFO Eviction
 * **Evict oldest fetched page**

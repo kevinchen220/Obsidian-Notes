@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Semaphores
 > [!tldr] Lock with multiple states
 

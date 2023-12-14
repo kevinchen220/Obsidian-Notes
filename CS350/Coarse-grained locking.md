@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Coarse-grained locking
 
 > [!tldr] One [[Mutex|lock]] for entire data structure

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Types of flash memory
 ## [[NAND flash]]
 Most prevalent

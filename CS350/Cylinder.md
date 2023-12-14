@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Cylinder
 
 > [!tip] Read/write heads sense and record data along one cylinder at a time

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Logical Consequence
 ### [[Functional Dependencies|Functional Dependency]] Closure
 Given a relation $R$ with [[attributes]] $\{A_1, ... , A_k\}$ and a set $F \cup \{X→Y\}$ of functional dependencies over $R$

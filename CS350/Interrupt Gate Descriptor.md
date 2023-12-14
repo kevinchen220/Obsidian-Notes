@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Interrupt Gate Descriptor
 ![[Pasted image 20231208164141.png]]
 **Target Offset**: Address of the first instruction of the interrupt handler

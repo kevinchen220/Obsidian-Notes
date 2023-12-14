@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Indexed Files
 
 > [!tldr] Each file has an array holding all of it’s block pointers

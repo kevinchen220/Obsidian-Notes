@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Linked Files
 
 > [!tldr] Linked list of data blocks

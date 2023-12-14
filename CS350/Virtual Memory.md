@@ -2,6 +2,7 @@
 tags:
   - unit
   - cs350
+dg-publish: true
 ---
 # Virtual Memory
 > [!tldr] Manage memory to allow multiple processes to share it

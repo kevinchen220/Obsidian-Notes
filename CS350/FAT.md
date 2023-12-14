@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # FAT
 
 > [!tldr] Used linked files, but links reside in fixed-size **file allocation table**

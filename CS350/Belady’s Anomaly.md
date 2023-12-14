@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Belady’s Anomaly
 
 > [!tldr] Adding more physical memory doesn’t always mean fewer faults

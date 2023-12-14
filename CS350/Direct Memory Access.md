@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Direct Memory Access
 
 > [!tldr] Place instructions to device in main memory

@@ -1,3 +1,6 @@
+---
+dg-publish: false
+---
 # Obsidian-Notes
 ## A place where I keep all my obsidian notes :)
 

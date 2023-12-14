@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Sectors
 
 > [!tldr] The disk interface typically represents the disk as a linear array of blocks

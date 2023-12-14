@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Cost model for disk I⧸O
 #### The time it takes to move data to/from a disk involves
 1. Seek time

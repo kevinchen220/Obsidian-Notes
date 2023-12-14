@@ -2,6 +2,7 @@
 tags:
   - unit
   - cs350
+dg-publish: true
 ---
 # Concurrency
 > [!tldr] Multiple programs running, or appearing to run at the same time

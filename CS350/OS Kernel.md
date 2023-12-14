@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # OS Kernel
 * runs in privileged mode
 * manages [[Processes]]
