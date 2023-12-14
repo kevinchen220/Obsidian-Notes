@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Cost of Retrieval
 $R$ has the signature MARK/(studnum, course, assignnum, mark)
 

@@ -7,7 +7,7 @@ dg-publish: true
 
 ## [[Specialization]]
 An entity set E that is a specialization of one parent entity set and satisfies:
-1. Only typing [[attributes]] declared
+1. Only typing [[Attributes]] declared
 2. No foreign key constraints reference E
 3. All entity sets that are specializations of E are mapped to views
 

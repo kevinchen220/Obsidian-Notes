@@ -14,5 +14,5 @@ Given a database signature $\rho=(R_1/k_1, …, R_n/k_n)$ and a set of constants
 * $E_1 \cup E_2$
 * $E_1 - E_2$
 
-→ Eval($E$, DB) denotes table computed by evaluating RA query $E$
+→ Eval($E$, DB) denotes table computed by evaluating [[relational algebra|RA]] query $E$
 → Cnum($E$) denotes the arity (number of columns)

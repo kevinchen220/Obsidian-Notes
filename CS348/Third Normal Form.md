@@ -15,7 +15,7 @@ Database schema $\langle p=\{R_1, …, R_n\}, F\rangle$ is in **3NF** if each re
 > [!tip] [[Lossless-Join]] and [[Dependency Preserving]] decomposition into 3NF relation schemata always exists
 
 #### Compute 3NF Decomposition
-Assume $R$ is a set of attributes and $F$ a set of FDs over $R$
+Assume $R$ is a set of [[Attributes]] and $F$ a set of FDs over $R$
 * We will need the [[minimal cover]]
 ```
 function Compute3NF(R, F)

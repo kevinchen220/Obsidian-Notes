@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Cost Estimation
 ## Simple Cost Model
 Materialized relation $R$ with an attribute $A$

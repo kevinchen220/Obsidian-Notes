@@ -3,7 +3,7 @@ dg-publish: true
 ---
 # Implementation
 
-> [!info] Multiset semantics of RA enables implementations of its operators
+> [!info] Multiset semantics of [[relational algebra|RA]] enables implementations of its operators
 
 Implementation for an RA operator provides a **cursor for OPEN/FETCH/CLOSE** interface
 1. Implements the cursor interface to produce answers
@@ -35,7 +35,7 @@ public:
 * **Cross product:**
 	* Simple nested loops algorithm
 * **Duplicate preserving projection:**
-	* Eliminate unwanted attributes from each tuple
+	* Eliminate unwanted [[Attributes]] from each tuple
 * **Multiset union:**
 	* Simple concatenation
 * **Multiset difference (alternative semantics):**

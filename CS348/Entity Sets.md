@@ -2,7 +2,7 @@
 dg-publish: true
 ---
 # Entity Sets
-Entity set E with [[attributes]] $a_1, … , a_n$ maps to a table E with attributes $a_1, …, a_n$
+Entity set E with [[Attributes]] $a_1, … , a_n$ maps to a table E with attributes $a_1, …, a_n$
 * Entity of type E $\iff$ Row in table E
 * Primary key of entity set → Primary key of table E
 

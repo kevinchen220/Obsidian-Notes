@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Relation Names
 ### Indexing
 #### Standard Physical Design

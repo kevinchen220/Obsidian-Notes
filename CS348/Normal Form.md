@@ -9,7 +9,7 @@ dg-publish: true
 > [!NOTE] Rule of Thumb
 > Facts about different entities should be recorded in separate tables
 
-Each relation schema should consist of two separate sets of attributes
+Each relation schema should consist of two separate sets of [[Attributes]]
 1. Primary key to record facts that identify an entity
 2. Record independent facts about the entity
 

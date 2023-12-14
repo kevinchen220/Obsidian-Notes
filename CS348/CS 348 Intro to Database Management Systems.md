@@ -9,4 +9,6 @@ dg-publish: true
 8. [[Logical Mapping]]
 9. [[Data Dependencies]]
 10. [[Query Evaluation]]
-11. 
+11. [[Transaction and Recovery Management]]
+12. [[Database Tuning]]
+13. 

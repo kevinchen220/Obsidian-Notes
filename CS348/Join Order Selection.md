@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+# Join Order Selection
 Joins are associative so $R\bowtie S \bowtie T \bowtie U$ are equivalent to
 1. $((R\bowtie S) \bowtie T) \bowtie U$
 2. $(R\bowtie S) \bowtie (T \bowtie U)$

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Always Good Transformations
 #### Push selections:
 $\sigma_{\varphi}(E_1 \bowtie_{\theta}E_2) = \sigma_{\varphi}(E_1) \bowtie_{\theta}E_2$

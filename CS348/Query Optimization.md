@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Query Optimization
 
 > [!warning] Thousands of possible query plans for a given query that differ by orders of magnitude in their performance
@@ -33,4 +36,4 @@
 
 Estimate the cost based on statistical metadata collected by the DBMS on database instances
 * **Uniformity**: All possible values of an attribute are equally likely to appear in a relation
-* **Independence**: Likelihood that an attribute has a particular value in a tuple does no depend on values of other attributes
+* **Independence**: Likelihood that an attribute has a particular value in a tuple does no depend on values of other [[Attributes]]

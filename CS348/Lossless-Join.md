@@ -18,7 +18,7 @@ where x.Mark = y.Mark
 Decomposition {$R_1, R_2$} of $R$ is a **lossless-join** if for any instance of $R$ the natural join of 
 $R_1$ and $R_2$ has no spurious tuples
 
-**Theorem:** Decomposition $\{R_1, R_2\}$ of $R$ is a **lossless-join** decomposition if and only if the common attributes of $R_1$ and $R_2$ form a [[Keys#Superkey|superkey]] for either schema
+**Theorem:** Decomposition $\{R_1, R_2\}$ of $R$ is a **lossless-join** decomposition if and only if the common [[Attributes]] of $R_1$ and $R_2$ form a [[Keys#Superkey|superkey]] for either schema
 
 **[[Logical Consequence]]** of the integrity constraints
 * $R_1 \cap R_2 → R_1$

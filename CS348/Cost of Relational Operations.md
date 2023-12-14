@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Cost of Relational Operations
 **Selection:** cost($\sigma_{\varphi}(E)$) = (1 + $\epsilon_{\varphi}$)cost($E$)
 **Nested loop join:** cost($R\times S$) = cost($R$) + ($|R|/b$)cost($S$)
