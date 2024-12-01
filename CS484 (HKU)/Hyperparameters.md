@@ -1,5 +1,6 @@
 ---
-tags: cs484
+tags:
+  - cs484
 dg-publish: true
 ---
 # Hyperparameters

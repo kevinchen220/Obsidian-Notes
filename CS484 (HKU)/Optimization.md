@@ -1,5 +1,6 @@
 ---
-tags: cs484
+tags:
+  - cs484
 dg-publish: true
 ---
 # Optimization
@@ -16,6 +17,29 @@ The slope in any direction is the **dot product** of the direction with the grad
 ### Gradient check
 Sanity check to make sure analytic gradient makes sense using numerical gradient 
 
-## [[Gradient Descent]]
+### [[Learning Rate]]
+
+# First-Order Optimization
+![[Pasted image 20241201003420.png]]
+1. Use gradient to make linear approximation
+2. Step to minimize the approximation
+### [[Gradient Descent]]
+### [[Stochastic Gradient Descent]]
+### [[AdaGrad]]
+### [[Adam]]
+
+> [!tldr] In practice, **Adam** is a good default choice
+> * SGD + Momentum can outperform Adam but may require more tuning (Learning rate and schedule)
+> * If you can afford to do full batch updates then try out **L-BFGS**
+
+
+
+# Second-Order Optimization
+![[Pasted image 20241201003430.png]]
+1. Use gradient and Hessian to make quadratic approximation
+2. Step to minimize the approximation
+
+> [!important] IMPRACTICAL!!
+![[Pasted image 20241201003525.png]]
 
 

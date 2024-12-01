@@ -10,4 +10,3 @@ dg-publish: true
 2. [[Image Classifier]]
 3. [[Loss Functions & Optimizations]]
 4. [[Backpropagation and Neural Networks]]
-5. 

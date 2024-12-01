@@ -29,10 +29,3 @@ A grid of numbers between [0, 255] RGB values
 * e.g. different breeds of cats
 
 ## [[Image Classifier]]
-
-### Previously
-**Feature Extraction**
-Examples
-* Color Histogram
-* Histogram of oriented gradients
-* Bag of words
