@@ -18,3 +18,13 @@ $\lambda$ = regularization strength ([[Hyperparameters]])
 * [[Elastic net]]
 * [[Max norm regularization]]
 * [[Dropout]]
+* [[Batch Normalization]]
+* [[Data Augmentation]]
+
+## A common pattern
+#### Training
+Add some kind of randomness
+#### Testing
+Average out randomness
+* Sometimes approximate
+

@@ -1,6 +1,7 @@
 ---
 dg-publish: true
-tags: cs484
+tags:
+  - cs484
 ---
 # Adam (almost)
 AKA [[AdaGrad#RMSProp (Leaky-AdaGrad)|RMSProp]] + [[Stochastic Gradient Descent#SGD + Momentum|Momentum]]

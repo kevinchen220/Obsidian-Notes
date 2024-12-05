@@ -1,6 +1,7 @@
 ---
 dg-publish: true
-tags: cs484
+tags:
+  - cs484
 ---
 # Feature Extraction
 ![[Pasted image 20241201123234.png]]

@@ -1,6 +1,7 @@
 ---
 dg-publish: true
-tags: cs484
+tags:
+  - cs484
 ---
 # AdaGrad
 > [!tldr] Added element-wise scaling of the gradient based on the historical sum of squares in each dimension

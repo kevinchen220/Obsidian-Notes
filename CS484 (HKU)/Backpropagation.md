@@ -1,3 +1,8 @@
+---
+tags:
+  - cs484
+dg-publish: true
+---
 # Backpropagation
 ![[Pasted image 20241201193612.png]]
 #### Tedious to derive $\nabla_WL$ on paper
