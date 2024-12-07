@@ -22,5 +22,7 @@ dg-publish: true
 14. [[Self-Supervised Learning]]
 15. [[Vision and Language]]
 16. [[Generative Models]]
-17. 
+17. [[3D Vision]]
+18. [[Videos]]
+19. 
 

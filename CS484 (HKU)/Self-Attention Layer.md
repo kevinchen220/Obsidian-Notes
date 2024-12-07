@@ -1,6 +1,7 @@
 ---
 dg-publish: true
-tags: cs484
+tags:
+  - cs484
 ---
 # Self-Attention Layer
 ##### One query per input vector

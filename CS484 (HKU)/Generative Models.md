@@ -18,3 +18,14 @@ tags:
 **Goal:** Learn some underlying hidden structure of the data
 **Examples:** Clustering, dimensionality reduction, feature learning, density estimation, etc.
 
+## Generative Modeling
+Given training data, generate new samples from same distribution
+![[Pasted image 20241205155102.png]]
+1. Learn $p_{\text{model}}(x)$ that approximates $p_{\text{data}}(x)$
+2. Sampling new x from $p_{\text{model}}(x)$
+
+## [[Fully visible belief network (FVBN)]]
+## [[Autoencoders]]
+## [[Generative Adversarial Networks]]
+## [[Diffusion]]
+

@@ -1,6 +1,7 @@
 ---
 dg-publish: true
-tags: cs484
+tags:
+  - cs484
 ---
 # Early Stopping
 > [!tldr] **Always a good idea!**
