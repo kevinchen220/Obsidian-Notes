@@ -1,5 +1,6 @@
 ---
 tags: cs484
+dg-publish: true
 ---
 # Generative Adversarial Networks
 **Setup:** Assume we have data $x_i$ drawn from distribution $p_{\text{data}}(x)$. Want to sample from $p_{\text{data}}$

@@ -1,5 +1,6 @@
 ---
 tags: cs484
+dg-publish: true
 ---
 # Diffusion
 ![[Pasted image 20241205171034.png]]

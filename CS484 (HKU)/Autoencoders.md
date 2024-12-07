@@ -1,5 +1,6 @@
 ---
 tags: cs484
+dg-publish: true
 ---
 # Autoencoders
 Unsupervised approach for learning feature vectors from raw data x, without any labels

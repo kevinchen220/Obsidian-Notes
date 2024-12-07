@@ -2,6 +2,7 @@
 tags:
   - cs484
   - unit
+dg-publish: true
 ---
 # Videos
 > [!tldr] 2D + Time

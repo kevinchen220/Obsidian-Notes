@@ -1,5 +1,6 @@
 ---
 tags: cs484
+dg-publish: true
 ---
 # Fully visible belief network (FVBN)
 #### Explicit density model

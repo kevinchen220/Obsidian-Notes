@@ -2,6 +2,7 @@
 tags:
   - cs484
   - unit
+dg-publish: true
 ---
 # Self-Supervised Learning
 > [!tldr] Self-supervised learning aims to learn from data without manual label annotations

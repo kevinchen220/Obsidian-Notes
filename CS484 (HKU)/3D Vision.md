@@ -2,6 +2,7 @@
 tags:
   - cs484
   - unit
+dg-publish: true
 ---
 # 3D Vision
 ## Multi-View [[Convolutional Neural Networks]]

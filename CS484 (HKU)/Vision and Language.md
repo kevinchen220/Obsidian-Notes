@@ -2,6 +2,7 @@
 tags:
   - cs484
   - unit
+dg-publish: true
 ---
 # Vision and Language
 ### Why Vision + Language?

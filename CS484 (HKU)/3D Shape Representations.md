@@ -1,5 +1,6 @@
 ---
 tags: cs484
+dg-publish: true
 ---
 # 3D Shape Representations
 ![[Pasted image 20241206173150.png]]
