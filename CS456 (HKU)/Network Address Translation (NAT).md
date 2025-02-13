@@ -1,5 +1,6 @@
 ---
 tags: cs456
+dg-publish: true
 ---
 # Network Address Translation (NAT)
 ![[Pasted image 20241214153408.png]]

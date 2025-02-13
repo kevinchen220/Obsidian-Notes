@@ -112,3 +112,35 @@ Divided into three sections which correspond to the three major jobs of the fina
 * Measure of earnings divided by interest
 * Assess how easily the firm will be able to cover its interest payments
 ### Leverage Ratios
+Extent to which firm relies on debt as a source of financing
+##### Debt-equity ratio
+* Debt / Equity
+##### Debt-to-capital ratio
+* Total debt / (total equity + total debt)
+##### Net debt
+* Total debt - excess cash & short-term investments
+##### Debt-to-enterprise value ratio
+* Net debt / (market value of debt + net debt)
+* Net debt / Enterprise value
+##### Equity Multiplier
+* Total Assets / Book Value of Equity
+### Valuation Ratios
+##### Price-earnings Ratio (P/E)
+Used to assess whether a stock is over or under valued based on the idea that the value of a stock should be proportional to the earnings it can generate
+* Market capitalization / Net income
+* Share price / Earnings per share
+##### PEG Ratio
+Ratio of a firm’s P/E to its expected earnings growth rate
+* Higher the PEG ratio, the higher the price relative to growth
+### Operating Returns
+##### Return on Equity
+Evaluating the firm’s return on investment by comparing its income to its investment
+* Net income / Book value of equity
+##### Return on Assets
+Evaluating the firm’s return on investment by comparing its income to its assets
+* Net income / Total assets
+##### Return on invested capital (ROIC)
+* EBIT(1 - tax rate) / (Book value of equity + Net debt)
+### Sarbanes-Oxly Act (SOX)
+Improve the accuracy of financial information
+* Requires that CEOs and CFOs certify the accuracy and appropriateness of their firm’s financial statements and increases the penalties against them if the financial statements later prove to be fraudulent

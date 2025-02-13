@@ -1,6 +1,7 @@
 ---
 tags:
   - cs456
+dg-publish: true
 ---
 # Packet Scheduling
 ## First Come First Serve

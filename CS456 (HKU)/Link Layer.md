@@ -2,6 +2,7 @@
 tags:
   - cs456
   - unit
+dg-publish: true
 ---
 # Link Layer
 Datagram transferred by different link protocols over different links

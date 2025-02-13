@@ -1,5 +1,6 @@
 ---
 tags: cs456
+dg-publish: true
 ---
 # Generalized Forwarding
 > [!tldr] Each router contains a flow table that is computed and distributed by a logically centralized routing controller

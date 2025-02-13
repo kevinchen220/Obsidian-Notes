@@ -1,6 +1,7 @@
 ---
 tags:
   - cs456
+dg-publish: true
 ---
 # Internet Protocol (IP)
 ## IP Datagram Format

@@ -1,5 +1,6 @@
 ---
 tags: cs456
+dg-publish: true
 ---
 # Control Plane
 **Routing:** Determine route taken by packets from source to destination

@@ -8,4 +8,5 @@ tags:
 ## Chapters
 1. [[Corporate Finance and the Financial Manager]]
 2. [[Financial Statement Analysis]]
-3. 
+3. [[The Valuation Principle]]
+4. [[The Time Value of Money]]

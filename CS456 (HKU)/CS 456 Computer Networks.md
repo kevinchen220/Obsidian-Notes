@@ -2,6 +2,7 @@
 tags:
   - cs456
   - course
+dg-publish: true
 ---
 # CS 456 Computer Networks
 ## Units
