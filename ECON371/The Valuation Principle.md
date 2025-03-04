@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # The Valuation Principle
 ## Cost-Benefit Analysis
 #### Quantifying Costs and Benefits

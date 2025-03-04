@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+# The Time Value of Money
 ## Valuing a Stream of Cash Flows
 #### Rule 1: Only values at the same point in time can be compared or combined
 #### Rule 2: To calculate a cash flow’s future value, we must compound it
