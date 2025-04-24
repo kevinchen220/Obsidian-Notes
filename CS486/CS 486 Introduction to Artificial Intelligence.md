@@ -3,6 +3,7 @@ dg-publish: true
 tags: CS370
 ---
 # CS 486 Introduction to Artificial Intelligence
+ # CS 486 Introduction to Artificial Intelligence
 ## Chapters
 1. [[What is AI]]
 2. [[Agents]]
